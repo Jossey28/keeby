@@ -14,18 +14,28 @@ After attending Nexus I for sure want to try out some [red switches](https://www
 
 In addition, it'd have a numpad that it connects to via a short type-c cable and very clicky switches.
 
-### Addons I'd want
-
-Rotary encoder (EC11) for scrolling documentation
-
-OLED screen for a persistent gif, proabably an 88x31 of some sort
-
----
 
 ## What I'm working with
 
-#### The Externals
+#### The Hardware
 
+17 cols x 6 rows = 102 possible keys
+
+( 17 cols + 6 rows ) + ( 2 * 2 rotary encoders) + 2pins for display = 29 gpio pins needed on the micro controller 
+
+23 will connect directly to the raspberry pi pico
+
+the other 6 will use an I2C I/O converter 
+
+Parts:
+
+[A 0.91 inch display](https://www.aliexpress.us/item/2251832650376908.html?gatewayAdapt=glo2usa4itemAdapt)
+
+[2 rotary encoders](https://www.alibaba.com/product-detail/EC11-rotary-15-20mm-Meihua-Bing_1600985459709.html)
+
+
+
+[Batch of red switches](https://www.aliexpress.us/item/3256802192387196.html?gatewayAdapt=glo2usa4itemAdapt)
 
 #### The Software
 
@@ -33,4 +43,4 @@ OLED screen for a persistent gif, proabably an 88x31 of some sort
 
 ## Status
 
-#### Currenly working on building the vision out 
+#### Currenly working on getting the PCB built

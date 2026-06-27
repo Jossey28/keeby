@@ -31,3 +31,13 @@ And using [this builder](http://builder.swillkb.com/) I was able to generate the
 
 **Total time spent: 2 hours**
 
+# July 20 (continued): Finished the keyboard matrix and updated design
+
+I worked on getting the keymatrix finished, afterwards I had a little panick because I realized my accessories would be *just* over the limit for the raspberry pi Pico.
+
+I looked at a bunch of different boards with various requierements, I wasn't able to find anything that was applicable to my skill level *and* price conscious until my friend pulled me back to my sense T-T
+
+I also started a parts list in my readme, I have a fairly solid outlook on the keyboard, making good progress : )
+
+**Total time spent: 4 hours**
+
